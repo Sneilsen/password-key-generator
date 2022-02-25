@@ -9,6 +9,5 @@ this is the provided basic website layout that has been improved and placed into
 
 
  Deployed website URL
- 
-  https://sneilsen.github.io/password-key-generator/
 
+https://sneilsen.github.io/password-key-generator/
