@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  background-color:rgb(27, 63, 63);
+  text-align: center;
 }
 
 html,
@@ -14,7 +16,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color:aliceblue;
 }
 
 .wrapper {
@@ -27,15 +29,15 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color:white;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color:antiquewhite;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: white;
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -62,7 +64,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: white;
   height: 2px;
 }
 
@@ -108,14 +110,16 @@ button[disabled] {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 85px;
-  font-size: 1.2rem;
+  font-size: 3.5rem;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px dashed black;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  color: white;
+  
 }
 
 @media (max-width: 690px) {
@@ -126,7 +130,7 @@ button[disabled] {
   }
 
   #password {
-    font-size: 1rem;
+    font-size: 6rem;
   }
 }
 
